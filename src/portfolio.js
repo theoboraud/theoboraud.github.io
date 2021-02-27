@@ -26,7 +26,7 @@ const greeting = {
     "Passionate Game Dev student looking to play his part in the video game industry.",
   resumeLink:
     "https://drive.google.com/file/d/1XXEpTWITnaKaRguEbOXv61sGJRlg5DYc/view?usp=sharing",
-  portfolio_repository: "https://github.com/theophileboraud/masterPortfolio",
+  portfolio_repository: "https://github.com/theoboraud",
 };
 
 const socialMediaLinks = [
