@@ -152,7 +152,7 @@ const skills = {
         },
         {
           skillName: "Unreal",
-          fontAwesomeClassname: "logos-unreal",
+          fontAwesomeClassname: "simple-icons:unrealengine",
           style: {
             backgroundColor: "transparent",
             color: "#000000",
