@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate Game Dev student looking to play his part in the video game industry.",
   resumeLink:
-    "https://drive.google.com/file/d/1XXEpTWITnaKaRguEbOXv61sGJRlg5DYc/view?usp=sharing",
+    "https://drive.google.com/file/d/1qsxqxkEfHQEb4JoeN8zd4Qe5NTqynUX2/view?usp=sharing",
   portfolio_repository: "https://github.com/theoboraud",
 };
 
@@ -67,6 +67,7 @@ const skills = {
       skills: [
         "⚡ Various programming languages",
         "⚡ Experience in Machine Learning",
+        "⚡ Actual focus on Game Engines",
       ],
       softwareSkills: [
         {
@@ -97,40 +98,48 @@ const skills = {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-              backgroundColor: "transparent",
-              color: "#00599C",
+            backgroundColor: "transparent",
+            color: "#00599C",
           },
         },
         {
           skillName: "C#",
           fontAwesomeClassname: "simple-icons:csharp",
           style: {
-              backgroundColor: "transparent",
-              color: "#239120",
+            backgroundColor: "transparent",
+            color: "#239120",
           },
         },
         {
           skillName: "SQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
-              backgroundColor: "transparent",
-              color: "#4479A1",
+            backgroundColor: "transparent",
+            color: "#4479A1",
           },
         },
         {
           skillName: "HTML",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
-              backgroundColor: "transparent",
-              color: "#E34F26",
+            backgroundColor: "transparent",
+            color: "#E34F26",
           },
         },
         {
           skillName: "Haskell",
           fontAwesomeClassname: "simple-icons:haskell",
           style: {
-              backgroundColor: "transparent",
-              color: "#5D4F85",
+            backgroundColor: "transparent",
+            color: "#5D4F85",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            backgroundColor: "transparent",
+            color: "#000000",
           },
         },
         {
@@ -142,11 +151,11 @@ const skills = {
           },
         },
         {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:github",
+          skillName: "Unreal",
+          fontAwesomeClassname: "logos-unreal",
           style: {
-              backgroundColor: "transparent",
-              color: "#000000",
+            backgroundColor: "transparent",
+            color: "#000000",
           },
         },
       ],
@@ -156,57 +165,82 @@ const skills = {
 
 const degrees = {
   degrees: [
-      {
-        title: "ICAN Design",
-        subtitle: "Master of Game Design",
-        logo_path: "ican_logo.png",
-        duration: "2020 - 2022",
-        descriptions: [
-          "⚡ Learning a wide array of skills to work in the video game industry: Game Design, Sound Design, Game Studies, UI/UX, Programming, etc...",
-          "⚡ Working on various projects to develop those skills and put them into practice.",
-        ],
-        website_link: "https://www.ican-design.fr/",
-      },
-      {
-        title: "The University of Warwick",
-        subtitle: "BSc in Computer Science",
-        logo_path: "wwk_logo.png",
-        duration: "2015 - 2019",
-        descriptions: [
-          "⚡ Learned various basic software engineering subjects like Data Science, Algorithms, OS, AI, Security, etc...",
-          "⚡ Developed professional skills in english during team projects as well as extracurricular activities.",
-        ],
-        website_link: "https://warwick.ac.uk/",
-      },
-    ],
+    {
+      title: "ICAN Design",
+      subtitle: "Master of Game Design",
+      logo_path: "ican_logo.png",
+      duration: "2020 - 2022",
+      descriptions: [
+        "⚡ Learning a wide array of skills to work in the video game industry: Game Design, Sound Design, Game Studies, UI/UX, Programming, etc...",
+        "⚡ Working on various projects to develop those skills and put them into practice.",
+      ],
+      website_link: "https://www.ican-design.fr/",
+    },
+    {
+      title: "The University of Warwick",
+      subtitle: "BSc in Computer Science",
+      logo_path: "wwk_logo.png",
+      duration: "2015 - 2019",
+      descriptions: [
+        "⚡ Learned various basic software engineering subjects like Data Science, Algorithms, OS, AI, Security, etc...",
+        "⚡ Developed professional skills in english during team projects as well as extracurricular activities.",
+      ],
+      website_link: "https://warwick.ac.uk/",
+    },
+  ],
 };
 
 const projects = {
   projects: [
-      {
-        title: "My Ears, Your Eyes",
-        subtitle: "Global Game Jam 2021",
-        logo_path: "meye_logo.png",
-        duration: "January 2021",
-        descriptions: [
-          "⚡ Design of a cooperative asymetric game on the theme Lost and Found in under 48 hours.",
-          "⚡ In charge of programming and animations throughout the project.",
-        ],
-        website_link: "https://globalgamejam.org/2021/games/your-eyes-my-ears-maze-game-coop-9",
-      },
-      {
-        title: "[Re] A Neurodynamical Model for Working Memory",
-        subtitle: "ReScience C",
-        logo_path: "rescience_logo.png",
-        duration: "December 2019",
-        descriptions: [
-          "⚡ Replication of a Recurrent Neural Network of the Echo State Network type for the purpose of a minimalistic Working Memory model.",
-          "⚡ Implementation of the replication in Python, and writing of the article.",
-          "⚡ Article in review, to be published in 2021.",
-        ],
-        website_link: "https://github.com/theoboraud/ESN",
-      },
-    ],
+    {
+      title: "The Hobbit",
+      subtitle: "Student project",
+      logo_path: "hobbit_logo.png",
+      duration: "June 2021 - September 2021",
+      descriptions: [
+        "⚡ Design of a text-based Choose your Own Adventure game, inspired by The Hobbit (J.R.R. Tolkien, 1937), under Unreal 4.",
+        "⚡ This project is still WIP.",
+        "⚡ In charge of programming and narrative design.",
+      ],
+      website_link: "",
+    },
+    {
+      title: "Edmond",
+      subtitle: "Student project",
+      logo_path: "edmond_logo.png",
+      duration: "February 2021 - April 2021",
+      descriptions: [
+        "⚡ Design of a walking simulator based on the theater play Edmond (Alexis Michalik, 2019), under Unreal 4.",
+        "⚡ Modern rework of the first part, portraying Edmond as a stressed Game Designer having to write out the story of his future videogame Cyrano.",
+        "⚡ In charge of programming and project management throughout the project.",
+      ],
+      website_link: "https://kiyanforestier.wixsite.com/showcase/projet-edmond",
+    },
+    {
+      title: "My Ears, Your Eyes",
+      subtitle: "Global Game Jam 2021",
+      logo_path: "meye_logo.png",
+      duration: "January 2021",
+      descriptions: [
+        "⚡ Design of a cooperative asymetric game on the theme Lost and Found in under 48 hours, under Unity.",
+        "⚡ In charge of programming and animations throughout the project.",
+      ],
+      website_link:
+        "https://globalgamejam.org/2021/games/your-eyes-my-ears-maze-game-coop-9",
+    },
+    {
+      title: "[Re] A Neurodynamical Model for Working Memory",
+      subtitle: "ReScience C",
+      logo_path: "rescience_logo.png",
+      duration: "October 2019 - December 2019",
+      descriptions: [
+        "⚡ Replication of a Recurrent Neural Network of the Echo State Network type for the purpose of a minimalistic Working Memory model.",
+        "⚡ Implementation of the replication in Python, and writing of the article.",
+        "⚡ Article in review, to be published in 2021.",
+      ],
+      website_link: "https://github.com/theoboraud/ESN",
+    },
+  ],
 };
 
 // Experience Page
@@ -214,7 +248,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have worked as an intern in various subjects, from Machine Learning to Game Development. I am currently working on a freelance project for CASDEN Bank as Lead Game Developer for the purpose of a school project.",
+    "I have worked as an intern in various subjects, from Machine Learning to Game Development. I am currently working on a startup project for Tribiew as a Lead Developer intern.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -225,10 +259,10 @@ const experience = {
           company: "CASDEN",
           company_url: "https://www.casden.fr/",
           logo_path: "casden_logo.png",
-          duration: "January 2021 - PRESENT",
+          duration: "January 2021 - March 2021",
           location: "Paris, FRANCE",
           description:
-            "Lead Developer on a serious game project as part of a freelance contract between CASDEN Bank and ICAN School of Design. In charge of project management and implementation on Unity.",
+            "Lead Developer on a serious game project as part of a freelance contract between CASDEN Bank and ICAN School of Design. In charge of project management and implementation under Unity.",
           color: "#0879bf",
         },
         {
@@ -248,6 +282,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Lead Developer Intern",
+          company: "Hyperseries/Tribiew",
+          company_url: "https://www.annuaire-startups.pro/startup/hyperseries/",
+          logo_path: "tribiew_logo.png",
+          duration: "April 2021 - July 2021",
+          location: "Paris, FRANCE",
+          description:
+            "Implementation and debugging of an app looking to gamify webseries consumption and funding under Unity.",
+          color: "#0071C5",
+        },
+        {
           title: "Developer Intern",
           company: "INRIA",
           company_url: "https://inria.fr/fr",
@@ -261,8 +306,7 @@ const experience = {
         {
           title: "Game Developer Intern",
           company: "CNRS",
-          company_url:
-            "https://www.cnrs.fr/fr/page-daccueil",
+          company_url: "https://www.cnrs.fr/fr/page-daccueil",
           logo_path: "cnrs_logo.jpg",
           duration: "July 2017 - August 2017",
           location: "Bordeaux, FRANCE",
@@ -287,7 +331,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "theophile_drawing.jpg",
+    profile_image_path: "theoboraud_github.png",
   },
 };
 
