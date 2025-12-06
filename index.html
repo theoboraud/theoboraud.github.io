@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theophile Boraud – 3D Resume</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="menu df fd-c">
+      <button class="btn" data-side="front">Intro</button>
+      <button class="btn" data-side="right">Work</button>
+      <button class="btn" data-side="back">Education</button>
+      <button class="btn" data-side="left">Certificates</button>
+      <button class="btn" data-side="top">Projects</button>
+      <button class="btn" data-side="bottom">Contacts</button>
+    </div>
+
+    <section class="scene">
+      <div class="cube show-front" id="cube" data-side="front">
+
+        <!-- FRONT – INTRO -->
+        <div class="cube-face cube-face-front">
+          <div class="intro-wrapper df fd-r">
+            <div class="intro">
+              <h1 class="intro-heading">
+                Hi, I'm Theophile, a <span>Software & Game</span> Developer
+              </h1>
+              <p class="intro-text">
+                Software Developer and part-time student in an MSc in Computer Science at the University of Bath.
+              </p>
+              <p class="intro-text">
+                I design and build interactive experiences using C#, C++, Unity and Java, 
+				from software to serious games, VR experiences and research prototypes.
+              </p>
+            </div>
+            <div class="image df fd-r">
+              <div class="image-wrapper">
+                <!-- Replace with your own photo if you want -->
+                <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+                     alt="Theophile Boraud portrait placeholder">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BACK – EDUCATION -->
+        <div class="cube-face cube-face-back">
+          <p class="intro-heading">Educa<span>tion</span></p>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2025 – 2027</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                University of Bath – MSc in Computer Science
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2020 – 2022</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                ICAN (Paris, FR) – Master in Game Design
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2015 – 2019</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                University of Warwick – BSc (Hons) Computer Science
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2012 – 2015</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Lycée Saint-Genès La Salle – Baccalauréat Scientifique
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT – EXPERIENCE -->
+        <div class="cube-face cube-face-right">
+          <p class="intro-heading">Wo<span>rk</span></p>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2024 – 2025</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Software/Game Developer – Freelance
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2021 – 2025</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Software/Game Developer – Apperture (Bordeaux, FR)
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2021</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Game Developer – TRIBIEW (Paris, FR)
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2021</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Game Developer (Freelance) – CASDEN Banque Populaire
+              </h4>
+            </div>
+          </div>
+
+          <div class="work-edu-section df fd-r">
+            <h4 class="work-edu-heading date">2019 – 2020</h4>
+            <div class="work-edu-info">
+              <h4 class="work-edu-heading company">
+                Research Intern – INRIA (LaBRI, Bordeaux, FR)
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- LEFT – CERTIFICATES -->
+        <div class="cube-face cube-face-left">
+          <p class="intro-heading">Certi<span>fi</span>cates</p>
+
+          <div class="certificate-section df fd-r">
+            <h4 class="certificate-date">Languages</h4>
+            <h4 class="certificate-heading">
+              French, English (C1), Spanish (B2)
+            </h4>
+          </div>
+
+          <div class="certificate-section df fd-r">
+            <h4 class="certificate-date">Tech</h4>
+            <h4 class="certificate-heading">
+              C#, C++, Python, Java, SQL, Haskell
+            </h4>
+          </div>
+
+          <div class="certificate-section df fd-r">
+            <h4 class="certificate-date">Engines</h4>
+            <h4 class="certificate-heading">
+              Unity, Unreal, OpenCV, OpenGL, Git
+            </h4>
+          </div>
+
+          <div class="certificate-section df fd-r">
+            <h4 class="certificate-date">TOEIC</h4>
+            <h4 class="certificate-heading">
+              990 / 990
+            </h4>
+          </div>
+
+          <div class="certificate-section df fd-r">
+            <h4 class="certificate-date">Duolingo</h4>
+            <h4 class="certificate-heading">
+              140 / 160
+            </h4>
+          </div>
+        </div>
+
+        <!-- TOP – PROJECTS -->
+        <div class="cube-face cube-face-top">
+          <p class="intro-heading"><span>Pro</span>jects</p>
+          <div class="projects">
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">Medical VR Training</p>
+                  <a class="visit-app" href="https://theoboraud.github.io/#/" target="_blank">
+                    Visit portfolio <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">VR Serious Games</p>
+                  <a class="visit-app" href="https://theoboraud.github.io/#/" target="_blank">
+                    View work <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">Funding Gamification App</p>
+                  <a class="visit-app" href="https://theoboraud.github.io/#/" target="_blank">
+                    View project <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">Serious Game – CASDEN</p>
+                  <a class="visit-app" href="https://theoboraud.github.io/#/" target="_blank">
+                    View details <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">Working Memory Model</p>
+                  <a class="visit-app" href="https://doi.org/10.5281/zenodo.4655870" target="_blank">
+                    Read paper <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-border">
+              <div class="project-wrapper">
+                <div class="visit-wrapper">
+                  <p class="app-title">Portfolio Website</p>
+                  <a class="visit-app" href="https://theoboraud.github.io/#/" target="_blank">
+                    Visit site <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTTOM – CONTACTS -->
+        <div class="cube-face cube-face-bottom">
+          <p class="intro-heading">Con<span>tacts</span></p>
+
+          <h4 class="work-edu-heading">
+            <i class="fas fa-location-arrow"></i> Bordeaux, France
+          </h4>
+
+          <h4 class="work-edu-heading">
+            <i class="far fa-envelope"></i>
+            <a href="mailto:theoboraud@outlook.com">theoboraud@outlook.com</a>
+          </h4>
+
+          <h4 class="work-edu-heading">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+33645489005">+33 6 45 48 90 05</a>
+          </h4>
+
+          <div class="social-media-btns">
+            <!-- CV / Resume -->
+            <a href="Resume_Theophile_Boraud_2025_12_SoftwareDeveloper.pdf"
+               target="_blank"
+               rel="noopener">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/YOUR-LINK-HERE"
+               target="_blank"
+               rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/YOUR-GITHUB-HERE"
+               target="_blank"
+               rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
